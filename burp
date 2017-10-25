@@ -1,0 +1,1 @@
+docker run -v /tmp/.X11-unix/:/tmp/.X11-unix -e DISPLAY=:0 --network=host -p 8080:8080 -it raesene/burp-free
