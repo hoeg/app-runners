@@ -1,0 +1,1 @@
+docker run -i -t --rm -e DISPLAY=$DISPLAY -v ~/Downloads:/home/anon/tor-browser_en-US/Browser/Downloads -v /tmp/.X11-unix:/tmp/.X11-unix:ro paulczar/torbrowser
